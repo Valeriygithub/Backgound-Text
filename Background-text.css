@@ -1,0 +1,30 @@
+/* HTML */
+
+/* <div class="box-bg-text">
+	<h1 class="img-h1">Hello</h1>
+</div> */
+
+
+/* CSS */
+
+.box-bg-text {
+	margin: 0 auto;
+	width: 90%;
+	max-width: 1200px;
+	min-height: 300px;
+	background-color: #0F1035;
+	border-radius: 20px;
+}
+
+.img-h1 {
+	background-image: url('https://www.pngitem.com/pimgs/m/4-42896_colorful-smoke-transparent-background-color-transparent-smoke-png.png');
+	/* -webkit-background-clip: content-box; */
+	background-clip: text;
+	color: transparent;
+	font-size: 20em;
+	font-weight: bold;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	background-position: center;
+}
